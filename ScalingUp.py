@@ -1,8 +1,8 @@
 import timeit
 
 
-goal_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-goal_2 = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
+goal_1 = [1, 2, 3, 4, 5, 6, 7, 0]
+goal_2 = [1, 3, 5, 7, 2, 4, 6, 0]
 
 
 #function to get the boundaries of the puzzle as indexes
@@ -462,8 +462,18 @@ def giveOutput (result, closed, ctr, algName, h):
         #    print( "Start node was the goal!")
         print("Program Executed in "+str(execution_time))#############
 
-
-
+#total cost variables for each search algorithm
+tot_cost_ucf = 0
+tot_cost_gbfs_h1 = 0
+tot_cost_gbfs_h2 = 0
+tot_cost_astar_h1 = 0
+tot_cost_astar_h2 = 0
+#total execution time variables for each search algorithm
+tot_time_ucf = 0
+tot_time_gbfs_h1 = 0
+tot_time_gbfs_h2 = 0
+tot_time_astar_h1 = 0
+tot_time_astar_h2 = 0
 ################################################################    Main    #########################################################
 
 
