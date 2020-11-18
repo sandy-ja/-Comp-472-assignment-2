@@ -9,13 +9,13 @@ Toufik Rbaheh - 40043950
 # Files included
 
 There are 3 python files:  <br>
-1- Combined_code
-2- Combined_code_with_analysis
-3- Scalingup
-4- sample.txt (the 50 random puzzles)
-5- 500 output folder (contains the output files for the 50 samples)
-6- The presentation file
-7- read_me file
+1- Combined_code <br>
+2- Combined_code_with_analysis <br>
+3- Scalingup <br>
+4- sample.txt (the 50 random puzzles) <br>
+5- 500 output folder (contains the output files for the 50 samples) <br>
+6- The presentation file <br>
+7- read_me file <br>
 
 
 # Intructions to run 
